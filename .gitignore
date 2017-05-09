@@ -1,0 +1,12 @@
+# Do not worry about the Xcode project
+*.xcodeproj/*
+
+# Do not worry about .out, .error, .sh, and .txt
+*.out
+*.error
+*.txt
+*.sh
+
+#Except for the readme
+
+!readme.txt
