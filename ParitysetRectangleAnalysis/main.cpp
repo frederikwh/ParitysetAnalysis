@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+#include "PSfunctions.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    vector<uint64_t> parityset;
+    parityset.push_back(0xfffffffffffffffd);
+    parity(parityset, "Rectangle", 2);
+    //parityset.push_back(0xb00b);
+    //parityFULL(parityset, "Rectangle", 4);
     return 0;
 }
